@@ -1,13 +1,11 @@
 import React from "react";
 const Contact = (props) => {
     return (
-        <div className="container" id="contacts">
+        <div className="container mb-5" id="contacts">
             <div className="row">
-                <div className="col-md-12 d-flex justify-content-center">
-                    <div className="col-10">
-                        <h1>Contact</h1>
-                        <p className="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex in velit voluptas consequatur est dolorum adipisci ipsa deserunt, officiis rem qui voluptatibus aut reiciendis debitis dolor mollitia laborum impedit deleniti.</p>
-                    </div>
+                <div className="col-md-12">
+                     <h1>Contact</h1>
+                     <p className="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex in velit voluptas consequatur est dolorum adipisci ipsa deserunt, officiis rem qui voluptatibus aut reiciendis debitis dolor mollitia laborum impedit deleniti.</p>
                 </div>
             </div>
             <div className="container">

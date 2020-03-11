@@ -6,9 +6,11 @@ body {
 
 #header{
     background-image: url(/public/assets/img/bg.jpg);
-    height:750px;
+    background-size: cover;
+    background-clip: border-box;
+    height: 500px;
     width: 100%;
-    object-fit: fill;
+   
 }
 
 #header div div h1{

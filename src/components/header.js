@@ -1,6 +1,6 @@
 import React from "react"
 
-const Header = () => {
+const Header = (props) => {
     return (
         <div className="container-fluid " id="header">
             <div className="row">
@@ -11,11 +11,11 @@ const Header = () => {
             </div>
             <div className="row">
                 <div id="separator">
-                
 
-                </div> 
-            </div> 
-            <div className="row" >   
+
+                </div>
+            </div>
+            <div className="row" >
                 <div className="col-12 d-flex justify-content-center">
                     <h3 className="display-4" > <strong>Will Knock your socks off</strong></h3>
                 </div>
