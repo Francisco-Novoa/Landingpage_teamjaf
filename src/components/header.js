@@ -2,16 +2,22 @@ import React from "react"
 
 const Header = (props) => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid " id="header">
             <div className="row">
-                <div className="col">
-                    <div className="card bg-dark text-dark border-0 rounded-0px-0">
-                        <img src="../public/assets/img/bg,jpg" />
-                    <div className="card-img-overlay">
-                            <h1 className="card-title text-center bg-white display-1 mt-5 font-weight-bold">One Page Wonder</h1>
-                            <h1 className="card-text text-center bg-white display-4 font-weight-bold">Will Knock Your Socks Off</h1>
-                        </div>
-                    </div>
+                <div className="col-12 d-flex justify-content-center mt-4 mx-0">
+                    <h1 className="display-1"><strong> One Page Wonder </strong></h1>
+
+                </div>
+            </div>
+            <div className="row">
+                <div id="separator">
+
+
+                </div>
+            </div>
+            <div className="row" >
+                <div className="col-12 d-flex justify-content-center">
+                    <h3 className="display-4" > <strong>Will Knock your socks off</strong></h3>
                 </div>
             </div>
         </div>

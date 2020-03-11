@@ -19,7 +19,7 @@ import Header from "./components/header"
 import Head1 from "./components/head1";
 import Head2 from "./components/head2";
 import Contact from "./components/contact";
-
+import Portfolio from "./components/portfolio";
 
 const Pancho = () => {
     return (
@@ -27,7 +27,8 @@ const Pancho = () => {
             <Navbar/>
             <Header/>
             <Head1/>
-            <Head2/>
+            <Head2/>   
+            <Portfolio/>
             <Contact/>
         </div>
     )
